@@ -1,0 +1,206 @@
+# Reading C:/Users/super/OneDrive/Desktop/Sem_3/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do IITB_CPU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/Users/super/OneDrive/Desktop/Sem_3/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/CPU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:09 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CPU
+# -- Compiling architecture iitb_cpu of CPU
+# End time: 16:19:09 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:09 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture Struct of ALU
+# End time: 16:19:09 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/FSM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:09 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FSM
+# -- Compiling architecture control of FSM
+# End time: 16:19:09 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/datapath.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:09 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity datapath
+# -- Compiling architecture path of datapath
+# End time: 16:19:09 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/signed extender.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:09 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/signed extender.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Signed_Extender
+# -- Compiling architecture Struct of Signed_Extender
+# End time: 16:19:09 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/register_n.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:10 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/register_n.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Register_N
+# -- Compiling architecture Behavioural of Register_N
+# End time: 16:19:10 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:10 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behavioural of Testbench
+# End time: 16:19:10 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:10 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Memory
+# -- Compiling architecture Behavioural of Memory
+# End time: 16:19:10 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/left_shifter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:10 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/left_shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Left_Shifter
+# -- Compiling architecture Struct of Left_Shifter
+# End time: 16:19:10 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/n_sel_mux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:10 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/n_sel_mux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package mux_p
+# -- Compiling package body mux_p
+# -- Loading package mux_p
+# -- Loading package NUMERIC_STD
+# -- Loading package mux_p
+# -- Compiling entity N_Sel_Mux
+# -- Compiling architecture syn of N_Sel_Mux
+# End time: 16:19:11 on Dec 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/left_shifter_2mul.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:11 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/left_shifter_2mul.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Left_Shifter_2Mul
+# -- Compiling architecture Struct of Left_Shifter_2Mul
+# End time: 16:19:11 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/register file.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:11 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/register file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Register_File
+# -- Compiling architecture Behavioural of Register_File
+# End time: 16:19:11 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:19:11 on Dec 21,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/super/OneDrive/Desktop/Sem_3/EE224/CPU/testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behavioural of Testbench
+# End time: 16:19:11 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 16:19:12 on Dec 21,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(behavioural)
+# Loading work.cpu(iitb_cpu)
+# Loading work.datapath(path)
+# Loading work.signed_extender(struct)
+# Loading ieee.numeric_std(body)
+# Loading work.register_n(behavioural)
+# Loading work.left_shifter(struct)
+# Loading work.left_shifter_2mul(struct)
+# Loading work.register_file(behavioural)
+# Loading work.alu(struct)
+# Loading work.memory(behavioural)
+# Loading work.fsm(control)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/CPU_instance/path_of_data/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/CPU_instance/path_of_data/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/CPU_instance/path_of_data/mem
+add wave -position insertpoint architecture
+# (vish-4014) No objects found matching 'architecture'.
+add wave -position end sim:/testbench/CPU_instance/*
+add wave -position end sim:/testbench/CPU_instance/path_of_data/*
+# End time: 18:16:08 on Dec 21,2024, Elapsed time: 1:56:56
+# Errors: 1, Warnings: 3
